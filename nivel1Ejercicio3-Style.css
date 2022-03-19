@@ -1,0 +1,102 @@
+    
+    * {
+        padding: 10px;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+        
+    @media only screen and (max-width: 600px){
+       /* For Mobile */
+
+        #header{
+        flex-flow: column;
+        }
+
+        #articles{
+        flex-flow: column;
+        }
+
+        .section-2{
+            flex-direction: column;
+        }
+    }
+
+
+    .wrapper {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        max-width: 1200px;
+    }
+
+    .section-1 {
+        background: #000;
+    }
+
+    header{
+        background: #2d4059;
+        display: flex;
+        flex-flow:nowrap;
+    }
+
+    .logo{
+         background: #ea5455;
+         flex: 1 1 auto;
+    }
+
+    .nav-1{
+         background: #ea5455;
+         flex: 5 1 auto;
+    }
+
+    .social{
+         background: #ea5455;
+         flex: 1 1 auto;
+    }
+
+    .textBox{
+        background: #F07B3F;
+    }
+
+    h1{
+        background: #FFD460;
+    }
+
+    .section-2 {
+        background: #000;
+        display: flex;
+    }
+
+    .articles{
+        background: #4e4e6a;
+        flex:2 1 auto;
+        display: flex;
+        flex-flow: row wrap;
+ 
+    }
+    
+    .article{
+        background:#1f6cb0 ;
+        flex: 1 1 40%;
+    } 
+
+    .nav-2{
+        background: #70a3c4;
+        flex: 1 1 100%;
+   }
+
+    .aside {
+        background: hotpink;
+        flex: 1 0 0;
+    }
+
+    .advice{
+        background: #ffea85;
+    }
+
+    .footer {
+        background: lightgreen;
+    }
+    
+
+    
