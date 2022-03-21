@@ -5,11 +5,22 @@
         box-sizing: border-box;
     }
         
+    @media only screen and (max-width: 800px){
+       /* For tablet */
+
+        .section-2{
+            flex-direction: column;
+        }
+    }
+
+
     .wrapper {
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
         max-width: 1200px;
+        margin: auto;
+
     }
 
     .section-1 {

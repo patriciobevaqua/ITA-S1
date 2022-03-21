@@ -5,35 +5,19 @@
         box-sizing: border-box;
     }
         
-    @media only screen and (max-width: 600px){
-       /* For Mobile */
-
-        #header{
-        flex-flow: column;
-        }
-
-        #articles{
-        flex-flow: column;
-        }
-
-        .section-2{
-            flex-direction: column;
-        }
-    }
-
-
     .wrapper {
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
         max-width: 1200px;
+        margin: auto;
     }
 
     .section-1 {
         background: #000;
     }
 
-    header{
+    .header{
         background: #2d4059;
         display: flex;
         flex-flow:nowrap;
